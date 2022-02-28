@@ -1,0 +1,22 @@
+{
+  "name": "spectrangle",
+  "version": "1.0.0",
+  "description": "The backend of spectrangle to share to email",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "nodemailer"
+  ],
+  "author": "Peter",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "nodemailer": "^6.7.2"
+  }
+}

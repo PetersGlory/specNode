@@ -1,0 +1,40 @@
+<doctype html>
+<html>
+    <head>
+        <title>Node backend for Spectrangle</title>
+        <style>
+            *{
+                scroll-behavior: smooth;
+                box-sizing: border-box;
+                font-family: arial "cursive" !important;
+                background-color: #f6f6f6;
+            }
+            h1{
+                font-family: arial "cursive" !important;
+                text-align: center;
+            }
+            form{
+                display: flex;
+                width: 60%;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            input{
+                border: 0.4px solid #999;
+                margin: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Testing the backend of Spectrangle</h1>
+
+        <form action="/send" method="post">
+            <input type="text" name="name" placeholder="Your Fullname." />
+            <input type="email" name="email" placeholder="Your email address." />
+            <input type="number" name="phone" placeholder="Your Mobile number here." />
+
+            <input type="submit" value="Submit" />
+        </form>
+    </body>
+</html>
